@@ -1,0 +1,66 @@
+html {
+    font-size: 10px;
+    font-family: "Roboto Mono", serif;
+    background-color: #8FBB99;
+}
+
+body {
+    width: 865px;
+    margin: 2cm auto;
+    background-color: #81E979;
+    padding: 0px 35px 20px 35px;
+    border: 5px solid #595A4A;
+}
+
+h1 {
+    margin: 0;
+    padding: 30px 0px 10px 0px;
+    color: black;
+    text-shadow: 2px 2px 2px black;
+    font-size: 60px;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 45px;
+    text-align: center;
+}
+
+p,
+li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 260px;
+}
+
+@font-face {
+    font-family: "Roboto Mono";
+    src: url(fonts/Roboto_Mono/RobotoMono-VariableFont_wght.ttf);
+}
+
+
+/* This is how comments work in css!
+Vokab: selector (e.g. p), property (e.g. color), value (e.g. red or max-content), 
+decleration (property and value combined), ruleset (selector and all declarations)
+element selector selects all of the elements
+p {
+    color: black;
+}
+
+ID selector selects all the elements where the ID in the html file matches the selector
+#kagga {
+    color: black;
+    width: max-content;
+    border: 1px solid black;
+
+}
+*/
